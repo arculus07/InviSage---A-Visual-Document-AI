@@ -1,3 +1,5 @@
+https://ayushranjan.streamlit.app/
+
 Invisage: AI-Powered Visual Document Analysis
 Invisage is a sophisticated Retrieval-Augmented Generation (RAG) application that intelligently extracts and analyzes information from complex visual documents, including PDFs and images containing text, tables, and charts.
 
@@ -81,10 +83,6 @@ Ask a Question: Use the Q&A section to ask questions about the content of the do
 
 👤 About the Creator
 This project was created by Ayush Ranjan as a demonstration of advanced RAG capabilities on visual documents.
-
-LinkedIn: Ayush Ranjan
-
-GitHub: itsayushranjan
 
 While the core architecture is original, the development process was accelerated by brainstorming and debugging with AI assistants like Gemini, ChatGPT, and others.
 
