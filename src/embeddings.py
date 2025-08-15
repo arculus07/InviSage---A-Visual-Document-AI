@@ -1,6 +1,14 @@
 import os
+
+# --- THIS IS THE FIX FOR THE SQLITE3 ERROR ---
+# This patches the Python environment to use the newer version of SQLite
+__import__('pysqlite3')
+import sys
+
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# --- END OF FIX ---
+
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-# This is the corrected import path
 from langchain_community.vectorstores import Chroma
 from langchain.embeddings import OpenAIEmbeddings
 
