@@ -183,7 +183,7 @@ if st.session_state.vectorstore:
 
     st.text_input(
         "Your question",
-        placeholder="e.g., What does the chart show and which slice is largest?",
+        placeholder="e.g., Summarize this Text / CLICK ON GET ANSWER",
         key="qa_question"
     )
 
