@@ -27,7 +27,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📄 Visual Document RAG")
+st.title("📄 InviSAGE")
 st.caption("Upload → Extract (OCR + Vision) → Semantic Search → AI Answer with Sources")
 
 # ---------------------- Initialize session state ----------------------
@@ -62,7 +62,7 @@ def _reset_state():
 # ---------------------- Sidebar Title ----------------------
 st.sidebar.markdown("""
 <div style="text-align:center; margin-bottom:10px;">
-    <h1 style="font-size:28px; margin:0;">InviSage</h1>
+    <h1 style="font-size:28px; margin:0;">Visual Document AI</h1>
     <p style="font-size:12px; color:#00bcd4; margin:0;">— A Visual Document AI by Ayush Ranjan</p>
 </div>
 """, unsafe_allow_html=True)
