@@ -1,39 +1,10 @@
-# Core RAG
+streamlit
 langchain
 langchain-openai
-openai
-tiktoken
+langchain-community
 chromadb
-
-# PDF Processing
-pymupdf
-pdfplumber
-
-# Image Processing
-pillow
-opencv-python
-
-# OCR
 pytesseract
-easyocr
-
-# Table Extraction
-camelot-py[cv]
-tabula-py
-
-
-# Layout & Visual Parsing
-layoutparser
-
-# Chart/Graph extraction helpers
-matplotlib
-numpy
-
-# Deployment
-streamlit
-
-# Optional: Transformer-based image captioning / multimodal
-transformers
-torch
-
+Pillow
 python-dotenv
+PyMuPDF
+camelot-py[cv]
