@@ -78,8 +78,8 @@ with st.sidebar.expander("About & Project", expanded=False):
     st.markdown("""
 **Ayush Ranjan** 
 - Email: [ranjanayush918@gmail.com](mailto:ranjanayush918@gmail.com)  
-- LinkedIn: [Ayush Ranjan](#https://www.linkedin.com/in/ayushxranjan/)  
-- GitHub: [Ayush Ranjan](#https://github.com/arculus07)
+- LinkedIn: [Ayush Ranjan](https://www.linkedin.com/in/ayushxranjan/)  
+- GitHub: [Ayush Ranjan](https://github.com/arculus07)
 
 **InviSage — Visual Document AI**  
 This project, *InviSage*, demonstrates a **Retrieval-Augmented Generation (RAG)** system that can process **text and visual content** in documents. The architecture and logic were developed independently, with external AI tools like Gemini, ChatGPT, Perplexity, and Grok used only for brainstorming and debugging.
